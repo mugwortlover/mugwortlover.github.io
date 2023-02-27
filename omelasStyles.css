@@ -1,10 +1,18 @@
 body {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
+	width: 9in ;
+	height: 11.5in;
+	margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: 18px;
+    border-color: red;
+    border-width: 10px;
 }
 
 h2 {
     text-align: center;
+}
+
+p {
+    text-indent: 0.5in;
 }
