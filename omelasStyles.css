@@ -1,12 +1,10 @@
-body {
+.page {
 	width: 9in ;
 	height: 11.5in;
 	margin: auto;
     font-family: 'Times New Roman', Times, serif;
     line-height: 150%;
     font-size: 18px;
-    border-color: red;
-    border-width: 10px;
 }
 
 h2 {
@@ -16,3 +14,4 @@ h2 {
 p {
     text-indent: 0.5in;
 }
+
