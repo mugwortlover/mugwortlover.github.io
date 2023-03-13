@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('./mugwort.jpg');
+    background-size: 100% auto;
+    margin: 0;
+}
+
+#icon {
+  font-family: 'Courgette', cursive;
+}
+
+.nav {
+    margin: 0px;
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav * {
+    margin: 0;
+}
+
+.nav div {
+    padding: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#EA-dropdown-content {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
+    margin: 0;
+    top: 40px;
+    left: 42px;
+    width: 157px;
+}
+
+#EA-dropdown-content a {
+    color: #1d1d1d;
+    margin: 0;
+    padding: 2px 0;
+    border-style: solid none;
+    border-color: white;
+    border-width: 2px;
+}
+
+.nav div:hover {
+    background-color:black;
+}
+
+#EA:hover #EA-dropdown-content {
+    display: flex; 
+}
+
+#EA-dropdown-content a:hover {
+    border-color: #1d1d1d;
+}
+
+hr {
+    height: 20px;
+    margin: 0;
+  }
