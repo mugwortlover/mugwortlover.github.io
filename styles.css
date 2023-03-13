@@ -3,27 +3,110 @@
     background-color: black;
 }
 
-.page {
+#page {
 	width: 9in ;
-	height: 11.5in;
-	margin: auto;
+    margin: auto;
+    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 150%;
     font-size: 18px;
+    background-color: white;
+    color: black;
 }
 
 h2 {
     text-align: center;
 }
 
-p {
+#page p {
     text-indent: 0.5in;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('./mugwort.jpg');
+    background-size: 100% auto;
+    margin: 0;
+}
+
+#icon {
+  font-family: 'Courgette', cursive;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .nav {
-    text-align: center;
+    margin: 0;
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .nav * {
-    margin: 0 20px;
+    margin: 0;
 }
+
+.nav div {
+    padding: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#dark-toggle {
+    margin-left: auto;
+}
+
+#dark-toggle button {
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 16px;
+}
+
+
+#EA-dropdown-content {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
+    margin: 0;
+    top: 40px;
+    left: 63px;
+    width: 157px;
+}
+
+
+
+#EA-dropdown-content a {
+    color: #1d1d1d;
+    margin: 0;
+    padding: 2px 0;
+    border-style: solid none;
+    border-color: white;
+    border-width: 2px;
+}
+
+.nav div:hover {
+    background-color:black;
+}
+
+#EA:hover #EA-dropdown-content {
+    display: flex; 
+    box-shadow: 5px 5px 5px dimgray
+}
+
+#EA-dropdown-content a:hover {
+    border-color: #1d1d1d;
+}
+
+.vl {
+    height: 20px;
+    margin: 0;
+  }

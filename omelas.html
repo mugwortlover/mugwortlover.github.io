@@ -3,15 +3,28 @@
     <head>
         <title>Omelas</title>
         <link rel="stylesheet" href="./styles.css">
-        <link rel="stylesheet" href="./omelasStyles.css">
         <script src="./script.js"></script>
     </head>
     <body>
         <div class="nav">
-            <a href="./index.html">Back</a>
-            <button onclick="switchMode()">Dark Mode</button>
+            <div id="icon">
+                <a href="index.html">M</a>
+            </div>
+            <hr class="vl">
+            <div id="EA">
+                <p>Ethics Assignments</p>
+                <div id="EA-dropdown-content">
+                    <a href="./resume.html">Resume</a>
+                    <a href="./omelas.html">Omelas</a>
+                    <a href="./aiaccess.html">AI Access</a>
+                    <a href="./sigcse.html">SIGCSE</a>
+                </div>
+            </div>
+            <div id="dark-toggle">
+                <button  onclick="switchMode()">Toggle dark mode</button>
+            </div>
         </div>
-        <div class="page">
+        <div id="page">
             <h2>Omelas writing response</h2>
             <br>
             <p>

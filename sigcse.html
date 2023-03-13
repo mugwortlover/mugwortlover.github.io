@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGCSE Response</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./sigcseStyles.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="draw()">
+        <div class="nav">
+            <div id="icon">
+                <a href="index.html">M</a>
+            </div>
+            <hr class="vl">
+            <div id="EA">
+                <p>Ethics Assignments</p>
+                <div id="EA-dropdown-content">
+                    <a href="./resume.html">Resume</a>
+                    <a href="./omelas.html">Omelas</a>
+                    <a href="./aiaccess.html">AI Access</a>
+                    <a href="./sigcse.html">SIGCSE</a>
+                </div>
+            </div>
+            <div id="dark-toggle">
+                <button  onclick="switchMode()">Toggle dark mode</button>
+            </div>
+        </div>
+        <div id="page">
+            <h2>SIGCSE Response</h2>
+            <p>
+                In Dr. Washington’s article, “When Are We Gonna Have a Serious Conversation About How Unserious (and Problematic) SIGCSE Is?” Washington responds to reviews she received on the panel proposal she submitted to the Special Interest Group on Computer Science Education’s Technical Symposium (SIGCSE TS). In her writing, Washington provides and critiques sections of the reviews she received, laying out their unfounded and elitist nature. She separates the reviews into different sections, which are Relevance and Interest, Structure and Hybrid Audience Participation, Panelist/Presenter Considerations, Feedback on Grammar, and Overall Evaluation. 
+                In the first section, <em>Relevance and Interest</em>, Washington responds to two critiques: 
+                <blockquote>
+                    (a) <em>“The benefit to the community is not explicitly (sp) discussed, but can be inferred from the abstract”</em>
+                    <br>
+                    and, 
+                    <br>
+                    (b)<em>“The panel discussion would be relevant to those who care about K-16 CS education. The usefulness of the panel would largely depend on how the panel questions are answered from the panelists. Without knowing the answers, it is difficult to genuinely assess how relevant it will be to SIGCSE community”</em>
+                </blockquote>
+                In response to (a), Washington mentions how the proposed panel is in fact explicitly discussed. In response to (b), Washington points out how the sentences <em>“The panel discussion would be relevant to those who care about K-16 CS education”</em> and <em>“it is difficult to genuinely assess how relevant it will be to SIGCSE community”</em> are contradictory. Additionally, Washington argues that asking panelists to have answers already written is not a precedent previous panel proposals have abided by. This new precedent, Washington argues, is evidence of elitist discrimination by the proposal reviewers. 
+            </p>
+            <p>
+                In the second section, <em>Structure and Hybrid Audience Participation</em>, Washington responds to:
+                <blockquote>
+                    <em>“The structure proposed is well thought-out from an in-person perspective, including a set of proposed prompt questions and general flow. However, there is no accounting for how this session could run in hybrid format. This could likely be remedied with some additional effort.”</em>
+                </blockquote>
+                In response, Washington admits this is the only critique with any merit. Specifically, Washington notes how the critique recognizes “a lack of inclusion of hybrid audience participation”. While this is a valid point, Washington explains how hybrid audience participation was not a requirement in the instructions. Therefore, this critique is invalid. 
+            </p>
+            <p>
+                In the third section, <em>Panelist/Presenter Considerations</em>, Washington responds to the critique:
+                <blockquote>
+                    <em>“Given that some panelists are not a full-time tenure track faculty, it is a bit difficult to assess their technical depth. However, in this panel, I do not think the topic of K-16 education would require someone who is technically deep. I suspect that a subject matter expert is needed and potentially teacher like XXXX can serve as such.”</em>
+                </blockquote>
+
+                In response, Washington calls out this critique as blatantly elitist. In particular, the reviewer’s mention that a panelist with “technical depth” is required to discuss the proposed questions. Washington responds by stating how the whole point of the panel is to discuss inclusivity in CS education. The people who are best suited to discuss inclusivity are the educators who have faced discrimination; “technical depth” is not relevant. 
+            </p>
+            <div id="canvas-div">
+                <h2>Canvas</h2>
+                <canvas id="canvas" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </body>
+</html>
