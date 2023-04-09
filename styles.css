@@ -57,18 +57,21 @@ body {
     color: inherit;
 }
 
-#dark-toggle {
-    margin-left: auto;
-}
 
-#dark-toggle button {
+#dark-toggle {
     text-decoration: none;
+    margin-left: auto;
     border: none;
     background-color: inherit;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    padding: 8px;
+    height: 100%;
 }
 
+#EA {
+    position: relative;
+}
 
 #EA-dropdown-content {
     display: none;
@@ -77,11 +80,8 @@ body {
     background-color: white;
     flex-direction: column;
     margin: 0;
-    top: 40px;
-    left: 63px;
-    width: 157px;
+    width: 100%;
 }
-
 
 
 #EA-dropdown-content a {
@@ -93,7 +93,7 @@ body {
     border-width: 2px;
 }
 
-.nav div:hover {
+.nav div:hover, #dark-toggle:hover {
     background-color:black;
 }
 
