@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>mugwortlover</title>
+        <title>HUD</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> 
@@ -22,8 +22,21 @@
                     <a href="./sigcse.html">SIGCSE</a>
                     <a href="./kindafunny.html">Kinda Funny</a>
                     <a href="./hud.html">HUD</a>
+
                 </div>
             </div>
         </div>
+        <div id="page">
+            <h2>HUD response</h2>
+            <p>Becasue of capitalism, Big companies like Facebook are motivited to maximise profits without considering their customers. The only effective way to reprimand these companies is to punish them with fines. This is because it cuts into their profits, which is the only thing they care about. </p>
+            <p>What do you think?</p>
+            <div class="buttons">
+                <button onclick="buttonHandler()">Yup, I would agree with that</button>
+                <button onclick="buttonHandler()">Eh, I don't know</button>
+                <button onclick="buttonHandler()">Nahhhh</button>
+            </div>
+            <p id="answer"></p>
+        </div>
+        <script src="hudScript.js"></script>
     </body>
 </html>
